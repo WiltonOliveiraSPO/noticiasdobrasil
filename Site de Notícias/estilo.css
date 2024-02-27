@@ -1,0 +1,79 @@
+/* Página */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #fff.url(../imagens/fundo.png) repeat-x;
+}
+
+#container{
+	width: 750px;
+	margin: 0 auto;
+
+}
+
+#topo{
+	height: 150 px;
+	padding-top: 25 px;
+	background: url(../imagens/detalhe-topo.png) no-repeat right top;
+}
+
+.logo{
+	width: 152 px;
+	height: 66px;
+	background: url(../imagens/logo.png) no-repeat center;
+	text-indent: -3000 px;
+}
+
+
+/* Barra de navegação */
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#topo ul{
+	background: #b10333;
+	margin-top: 30px;
+	float: left;
+}
+
+#top ul li{
+	float: left;
+}
+
+#topo ul a{
+	font-size: 0.9em;
+	display: block;
+	padding: 0.5em 1.5em;
+	line-height: 2.1em;
+	text-decoration: none;
+	color: #fff;
+	background: url(../imagens/fundo.png/divisor.png) no-repeat left center;
+}
+
+#topo ul .primeiro a{
+	background: none;
+}
+
+#topo ul a:hover{
+	color: #69001d;
+}
+
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.internacional #navegacao a#internacional,
+body.economia #navegacao a#economia,
+body.saude #navegacao a#saude,
+body.esporte #navegacao a#esporte,
+body.celebridades #navegacao a#celebridades,
+body.fotos #navegacao a#fotos {
+	color: #fff;
+	background: #de003e;
+	cursor: text;
+}
